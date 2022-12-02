@@ -1,0 +1,1742 @@
+CRITICAL - 2022-11-30 16:24:45 --> Invalid file: home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:25:27 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:25:28 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:25:28 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:25:28 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:25:39 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:25:39 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:25:39 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:25:40 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:25:42 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:25:42 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:25:43 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:25:43 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:25:43 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:25:43 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:25:43 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:26:36 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:26:36 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:26:37 --> Invalid file: layout/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/menu', null, true)
+ 3 APPPATH\Views\partials\index.php(235): CodeIgniter\View\View->include('layout/menu')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\partials\\index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('partials/index', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:49:06 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:49:10 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:49:30 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:49:31 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:49:31 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:49:31 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:49:50 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:49:51 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:49:51 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:49:51 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:49:52 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:53 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:54 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:54 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:54 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:54 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:54 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:54 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:55 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:55 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:55 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:55 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:56 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:57 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:58 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:59 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:59 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:50:59 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:51:02 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:51:08 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:51:25 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:51:25 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:51:25 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:51:28 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:52:03 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:52:03 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:52:04 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:52:04 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 16:52:07 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 39.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:00:25 --> Call to undefined function form_open()
+in APPPATH\Views\auth\login.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:00:41 --> Call to undefined function form_close()
+in APPPATH\Views\auth\login.php on line 53.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:00:41 --> Call to undefined function form_close()
+in APPPATH\Views\auth\login.php on line 53.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:00:41 --> Call to undefined function form_close()
+in APPPATH\Views\auth\login.php on line 53.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:00:55 --> Call to undefined function form_open()
+in APPPATH\Views\auth\login.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:01:00 --> Call to undefined function form_open()
+in APPPATH\Views\auth\login.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:01:00 --> Call to undefined function form_open()
+in APPPATH\Views\auth\login.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:01:00 --> Call to undefined function form_open()
+in APPPATH\Views\auth\login.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:01:00 --> Call to undefined function form_open()
+in APPPATH\Views\auth\login.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:01:05 --> Call to undefined function form_open()
+in APPPATH\Views\auth\login.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 17:06:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-garuda CHARACTER SET utf8 COLLATE utf8_general_ci' at line 1 in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE DATABASE...', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE DATABASE...')
+#2 D:\project\mvp-garuda\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE DATABASE...')
+#3 D:\project\mvp-garuda\system\Database\Forge.php(223): CodeIgniter\Database\BaseConnection->query('CREATE DATABASE...')
+#4 D:\project\mvp-garuda\app\Config\Routes.php(40): CodeIgniter\Database\Forge->createDatabase('mvp-garuda')
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+ERROR - 2022-11-30 17:07:05 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'mvp-garuda', 3306, '', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#4 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#9 {main}
+CRITICAL - 2022-11-30 17:07:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mvp-garuda'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 APPPATH\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+ 4 SYSTEMPATH\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 17:07:09 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'mvp-garuda', 3306, '', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#4 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#9 {main}
+CRITICAL - 2022-11-30 17:07:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mvp-garuda'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 APPPATH\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+ 4 SYSTEMPATH\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 17:07:13 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'mvp-garuda', 3306, '', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#4 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#9 {main}
+CRITICAL - 2022-11-30 17:07:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mvp-garuda'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 APPPATH\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+ 4 SYSTEMPATH\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 17:08:28 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'mvp-garuda', 3306, '', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#4 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#9 {main}
+CRITICAL - 2022-11-30 17:08:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mvp-garuda'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 APPPATH\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+ 4 SYSTEMPATH\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 17:08:28 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'mvp-garuda', 3306, '', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#4 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#9 {main}
+CRITICAL - 2022-11-30 17:08:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mvp-garuda'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 APPPATH\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+ 4 SYSTEMPATH\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 17:08:29 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'mvp-garuda', 3306, '', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#4 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#9 {main}
+CRITICAL - 2022-11-30 17:08:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mvp-garuda'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 APPPATH\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+ 4 SYSTEMPATH\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 17:08:29 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'mvp-garuda', 3306, '', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#4 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#9 {main}
+CRITICAL - 2022-11-30 17:08:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mvp-garuda'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 APPPATH\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+ 4 SYSTEMPATH\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 17:08:29 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'mvp-garuda', 3306, '', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#4 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#9 {main}
+CRITICAL - 2022-11-30 17:08:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mvp-garuda'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 APPPATH\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+ 4 SYSTEMPATH\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 17:08:42 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'mvp-garuda', 3306, '', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#4 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#9 {main}
+CRITICAL - 2022-11-30 17:08:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mvp-garuda'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 APPPATH\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+ 4 SYSTEMPATH\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 17:08:43 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'mvp-garuda', 3306, '', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#4 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#9 {main}
+CRITICAL - 2022-11-30 17:08:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mvp-garuda'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 APPPATH\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+ 4 SYSTEMPATH\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 17:08:43 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'mvp-garuda', 3306, '', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'mvp-garuda' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\project\mvp-garuda\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\project\mvp-garuda\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 D:\project\mvp-garuda\app\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+#4 D:\project\mvp-garuda\system\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#9 {main}
+CRITICAL - 2022-11-30 17:08:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mvp-garuda'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 APPPATH\Config\Routes.php(39): CodeIgniter\Database\Config::forge()
+ 4 SYSTEMPATH\CodeIgniter.php(868): CodeIgniter\CodeIgniter->Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:46:36 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:56:03 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:56:39 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:57:33 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:57:46 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:57:55 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:57:57 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:00:12 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:03:19 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:03:24 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:22:17 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:22:22 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:24:05 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:25:28 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:28:58 --> Undefined variable $db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:29:04 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:29:25 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:30:09 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:30:11 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:30:12 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:30:17 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:30:36 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:30:37 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:33:17 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:33:40 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:33:43 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:33:43 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:33:44 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:33:44 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:33:45 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:33:45 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:36:34 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:36:46 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 18:37:42 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 20:38:51 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 17.
+ 1 APPPATH\Controllers\Auth.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 20:41:24 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 17.
+ 1 APPPATH\Controllers\Auth.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 20:47:01 --> Undefined property: App\Controllers\Auth::$db
+in APPPATH\Controllers\Auth.php on line 17.
+ 1 APPPATH\Controllers\Auth.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$db', 'APPPATH\\Controllers\\Auth.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 20:47:49 --> mysqli_sql_exception: Unknown column 'usernam' in 'where clause' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\project\mvp-garuda\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\project\mvp-garuda\system\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\project\mvp-garuda\app\Controllers\Auth.php(21): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+CRITICAL - 2022-11-30 20:47:49 --> Unknown column 'usernam' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `usernam` = \'asdasd\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `usernam` = \'asdasd\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `usernam` = \'asdasd\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `usernam` = :usernam:', [...], false)
+ 5 APPPATH\Controllers\Auth.php(21): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 20:47:56 --> mysqli_sql_exception: Unknown column 'usernama' in 'where clause' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\project\mvp-garuda\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\project\mvp-garuda\system\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\project\mvp-garuda\app\Controllers\Auth.php(21): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+CRITICAL - 2022-11-30 20:47:56 --> Unknown column 'usernama' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `usernama` = \'asdasd\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `usernama` = \'asdasd\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `usernama` = \'asdasd\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `usernama` = :usernama:', [...], false)
+ 5 APPPATH\Controllers\Auth.php(21): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 20:47:58 --> mysqli_sql_exception: Unknown column 'usernama' in 'where clause' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\project\mvp-garuda\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\project\mvp-garuda\system\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\project\mvp-garuda\app\Controllers\Auth.php(21): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+CRITICAL - 2022-11-30 20:47:58 --> Unknown column 'usernama' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `usernama` = \'asdasd\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `usernama` = \'asdasd\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `usernama` = \'asdasd\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `usernama` = :usernama:', [...], false)
+ 5 APPPATH\Controllers\Auth.php(21): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 20:47:59 --> mysqli_sql_exception: Unknown column 'usernama' in 'where clause' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\project\mvp-garuda\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\project\mvp-garuda\system\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\project\mvp-garuda\app\Controllers\Auth.php(21): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+CRITICAL - 2022-11-30 20:47:59 --> Unknown column 'usernama' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `usernama` = \'asdasd\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `usernama` = \'asdasd\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `usernama` = \'asdasd\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `usernama` = :usernama:', [...], false)
+ 5 APPPATH\Controllers\Auth.php(21): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 20:48:00 --> mysqli_sql_exception: Unknown column 'usernama' in 'where clause' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\project\mvp-garuda\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\project\mvp-garuda\system\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\project\mvp-garuda\app\Controllers\Auth.php(21): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+CRITICAL - 2022-11-30 20:48:00 --> Unknown column 'usernama' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `usernama` = \'asdasd\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `usernama` = \'asdasd\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `usernama` = \'asdasd\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `usernama` = :usernama:', [...], false)
+ 5 APPPATH\Controllers\Auth.php(21): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 20:48:00 --> mysqli_sql_exception: Unknown column 'usernama' in 'where clause' in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\project\mvp-garuda\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\project\mvp-garuda\system\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\project\mvp-garuda\app\Controllers\Auth.php(21): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\project\mvp-garuda\system\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+#6 D:\project\mvp-garuda\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\project\mvp-garuda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\project\mvp-garuda\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\project\mvp-garuda\system\Commands\Server\rewrite.php(46): require_once('D:\\project\\mvp-...')
+#10 {main}
+CRITICAL - 2022-11-30 20:48:00 --> Unknown column 'usernama' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `usernama` = \'asdasd\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `usernama` = \'asdasd\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `usernama` = \'asdasd\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `usernama` = :usernama:', [...], false)
+ 5 APPPATH\Controllers\Auth.php(21): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 20:48:09 --> Undefined array key "usernama"
+in APPPATH\Controllers\Auth.php on line 21.
+ 1 APPPATH\Controllers\Auth.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usernama"', 'APPPATH\\Controllers\\Auth.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 20:48:15 --> Undefined array key "usernama"
+in APPPATH\Controllers\Auth.php on line 21.
+ 1 APPPATH\Controllers\Auth.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usernama"', 'APPPATH\\Controllers\\Auth.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 20:48:16 --> Undefined array key "usernama"
+in APPPATH\Controllers\Auth.php on line 21.
+ 1 APPPATH\Controllers\Auth.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usernama"', 'APPPATH\\Controllers\\Auth.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 21:28:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1, 2) VALUES (:0:, :1:, :2:)' at line 1 in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\project\mvp-garuda\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\project\mvp-garuda\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\project\mvp-garuda\app\Database\Seeds\UserSeeder.php(40): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\project\mvp-garuda\system\Database\Seeder.php(146): App\Database\Seeds\UserSeeder->run()
+#6 D:\project\mvp-garuda\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 D:\project\mvp-garuda\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 D:\project\mvp-garuda\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 D:\project\mvp-garuda\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 D:\project\mvp-garuda\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 D:\project\mvp-garuda\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 D:\project\mvp-garuda\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\project\mvp-garuda\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 D:\project\mvp-garuda\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2022-11-30 21:29:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1, 2) VALUES (:0:, :1:, :2:)' at line 1 in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\project\mvp-garuda\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\project\mvp-garuda\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\project\mvp-garuda\app\Database\Seeds\UserSeeder.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\project\mvp-garuda\system\Database\Seeder.php(146): App\Database\Seeds\UserSeeder->run()
+#6 D:\project\mvp-garuda\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 D:\project\mvp-garuda\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 D:\project\mvp-garuda\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 D:\project\mvp-garuda\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 D:\project\mvp-garuda\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 D:\project\mvp-garuda\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 D:\project\mvp-garuda\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\project\mvp-garuda\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 D:\project\mvp-garuda\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2022-11-30 21:30:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1, 2) VALUES (:0:, :1:, :2:)' at line 1 in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\project\mvp-garuda\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\project\mvp-garuda\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\project\mvp-garuda\app\Database\Seeds\UserSeeder.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\project\mvp-garuda\system\Database\Seeder.php(146): App\Database\Seeds\UserSeeder->run()
+#6 D:\project\mvp-garuda\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 D:\project\mvp-garuda\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 D:\project\mvp-garuda\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 D:\project\mvp-garuda\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 D:\project\mvp-garuda\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 D:\project\mvp-garuda\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 D:\project\mvp-garuda\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\project\mvp-garuda\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 D:\project\mvp-garuda\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2022-11-30 21:32:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1, 2) VALUES (:0:, :1:, :2:)' at line 1 in D:\project\mvp-garuda\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\project\mvp-garuda\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\project\mvp-garuda\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\project\mvp-garuda\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\project\mvp-garuda\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\project\mvp-garuda\app\Database\Seeds\UserSeeder.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\project\mvp-garuda\system\Database\Seeder.php(146): App\Database\Seeds\UserSeeder->run()
+#6 D:\project\mvp-garuda\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 D:\project\mvp-garuda\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 D:\project\mvp-garuda\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 D:\project\mvp-garuda\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 D:\project\mvp-garuda\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 D:\project\mvp-garuda\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 D:\project\mvp-garuda\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\project\mvp-garuda\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 D:\project\mvp-garuda\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+CRITICAL - 2022-11-30 21:58:14 --> Undefined property: App\Controllers\Auth::$input
+in APPPATH\Controllers\Auth.php on line 24.
+ 1 APPPATH\Controllers\Auth.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$input', 'APPPATH\\Controllers\\Auth.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 22:06:09 --> Undefined property: App\Controllers\Auth::$input
+in APPPATH\Controllers\Auth.php on line 24.
+ 1 APPPATH\Controllers\Auth.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$input', 'APPPATH\\Controllers\\Auth.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 22:07:33 --> Array callback has to contain indices 0 and 1
+in APPPATH\Controllers\Auth.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->loginProses()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 22:46:56 --> Call to undefined method CodeIgniter\Session\Session::isLoggedIn()
+in APPPATH\Filters\LoginFilter.php on line 14.
+ 1 SYSTEMPATH\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
